@@ -1,0 +1,42 @@
+body {
+  color: #bec0c2;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer-list {
+  color: white;
+  list-style: none;
+}
+
+.footer-list li {
+  margin-right: 0.75rem;
+  padding-left: 0 !important;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #1c1e20;
+  margin: auto;
+  padding: 250px;
+}
+.footer-row {
+  display: flex;
+  align-items: left;
+  padding: 3;
+}
+
+.footer-button {
+  margin-bottom: 20px;
+  background-color: rgb(19, 18, 18);
+  color: white;
+  margin-left: 2rem;
+}
+h6 {
+  margin-left: 2rem;
+}
+.footer-icon {
+  margin-left: 2rem;
+  padding-bottom: 20px;
+  padding-right: 20;
+}
