@@ -2,6 +2,7 @@ body {
   color: #bec0c2;
   min-height: 100vh;
   font-family: "Open Sans", sans-serif;
+  background-color: #1c1e20;
 }
 
 .footer-list {
@@ -18,7 +19,8 @@ body {
   box-sizing: border-box;
   background-color: #1c1e20;
   margin: auto;
-  padding: 250px;
+  padding: 180px;
+  margin-top: 20px;
 }
 .footer-row {
   display: flex;
@@ -39,4 +41,8 @@ h6 {
   margin-left: 2rem;
   padding-bottom: 20px;
   padding-right: 20;
+}
+
+h1 {
+  margin-left: 60px;
 }
