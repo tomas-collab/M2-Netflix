@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style2.css" />
+
+    <title>Edit Profile</title>
+  </head>
+  <body>
+    <!-- Just an image -->
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="assets/netflix_logo.png" width="60" height="40" alt="" />
+      </a>
+    </nav>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <h1>Edit Profile</h1>
+      </div>
+
+      <div class="row justify-content-center mb-5">
+        <div class="col-8 col-sm-3 position-relative">
+          <img src="https://strive.school/favicon.ico" class="img-fluid" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-pencil-square position-absolute"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"
+            />
+            <path
+              fill-rule="evenodd"
+              d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"
+            />
+          </svg>
+        </div>
+        <div class="col-6 col-md-6">
+          <div class="col-11 col-sm-9 pt-3 pt-sm-0">
+            <div class="input-container">
+              <input type="text" value=" Strive Student" id="input-name" />
+              <label for="dropdownMenuLink" class="d-block pt-3"
+                ><h5>Language:</h5></label
+              >
+
+              <div class="dropdown">
+                <a
+                  class="btn dropdown-toggle"
+                  href="#"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  English
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">English</a>
+                  <a class="dropdown-item" href="#">Spanish</a>
+                  <a class="dropdown-item" href="#">Italian</a>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <h4>Maturity Settings:</h4>
+                <button>ALL MATURITY RATINGS</button>
+                <p>Show titles of all maturity ratings for this profile.</p>
+                <button><a href="">EDIT</a></button>
+              </div>
+
+              <div class="col-11">
+                <h4>Autoplay controls</h4>
+                <label for="autoplay-next" class="b-container"
+                  ><input
+                    type="checkbox"
+                    id="autoplay-next"
+                    checked="checked"
+                  />
+                  Autoplay next episode in a series on all devices.
+                </label>
+                <label for="autoplay-next" class="b-container"
+                  ><input
+                    type="checkbox"
+                    id="autoplay-next"
+                    checked="checked"
+                  />
+                  Autoplay previews while browsing on all devices.
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="row justify-content-center">
+          <div>
+            <button>SAVE</button>
+            <button>CANCEL</button>
+            <button>DELETE PROFILE</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
